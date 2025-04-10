@@ -4,7 +4,7 @@ from person import Person
 
 class Admin(Person):
     def __init__(self):
-        super().__init__()
+        super().__init__("admin")
         
     def add_books(self):
         return True
@@ -17,7 +17,8 @@ class Admin(Person):
     
     def manage_users(self):
         pass
-    
-a = Admin()
-print("Enter your name(for admin): ", a.name)
-print("Enter your ID(admin ID): ", a.id)
+
+if __name__ == "__main__":
+    a = Admin()
+    print("Enter your admin name: ", a.name)
+    print("Enter your admin ID: ", a.id)
