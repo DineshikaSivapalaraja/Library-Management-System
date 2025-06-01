@@ -4,15 +4,21 @@ class Person():
         self.name = input(f"Enter your name ({role}): ")
         self.id = input(f"Enter your ID ({role}): ")
         self.role = role
+        # Only users have borrowed_books
+        if self.role == "user":
+            self.borrowed_books = []
         self.save_person()
     
     def to_dict(self):
-        return{
+        data = {
             "name": self.name,
             "id": self.id,
             "role": self.role
         }
-    
+        if self.role == "user":
+            data["borrowed_books"] = self.borrowed_books
+        return data
+
     def save_person(self):
         try:
             with open("persons.json","r") as file:
