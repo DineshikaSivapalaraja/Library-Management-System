@@ -4,43 +4,55 @@
         "book_id": "B123",
         "author": "J K Rowling",
         "no_of_pages": 223,
-        "year": 1997
+        "year": 1997,
+        "available": false
     },
     {
         "name": "One Hundred Years of Solitude",
         "book_id": "B987",
         "author": " Gabriel Garcia Marquez ",
         "no_of_pages": 400,
-        "year": 1967
+        "year": 1967,
+        "available": true
     },
     {
         "name": "Funny story",
         "book_id": "B101",
         "author": "Emily Henry",
         "no_of_pages": 43,
-        "year": 2024
+        "year": 2024,
+        "available": true
     },
     {
         "name": "The Lord of the Rings",
         "book_id": "B209",
         "author": "John Ronald Reuel Tolkien",
         "no_of_pages": 1178,
-        "year": 1937
+        "year": 1937,
+        "available": false
     },
     {
         "name": "1984",
         "book_id": "B382",
         "author": " George Orwell",
         "no_of_pages": 320,
-        "year": 1949
+        "year": 1949,
+        "available": true
     },
     {
         "name": "1984",
         "book_id": "B382",
         "author": " George Orwell",
         "no_of_pages": 320,
-        "year": 1949
+        "year": 1949,
+        "available": true
+    },
+    {
+        "name": "Harry",
+        "book_id": "B009",
+        "author": "Donald MC",
+        "no_of_pages": 1979,
+        "year": 2000,
+        "available": true
     }
-
-
 ]
