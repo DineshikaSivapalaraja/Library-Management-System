@@ -5,44 +5,35 @@
         "role": "admin"
     },
     {
-        "name": "Stephan",
-        "id": "A002",
-        "role": "admin"
-    },
-    {
         "name": "Peter",
-        "id": "A003",
-        "role": "admin"
-    },
-    {
-        "name": "Raj",
-        "id": "123",
+        "id": "A002",
         "role": "admin"
     },
     {
         "name": "Sri",
         "id": "U123",
-        "role": "user"
+        "role": "user",
+        "borrowed_books": [
+            "B123"
+        ]
     },
     {
         "name": "Leela",
         "id": "U321",
-        "role": "user"
+        "role": "user",
+        "borrowed_books": []
     },
     {
         "name": "Veena",
         "id": "U109",
-        "role": "user"
-    },
-    {
-        "name": "Peter",
-        "id": "A230",
-        "role": "admin"
+        "role": "user",
+        "borrowed_books": []
     },
     {
         "name": "Arul",
         "id": "A987",
-        "role": "user"
+        "role": "user",
+        "borrowed_books": []
     },
     {
         "name": "Veer",
